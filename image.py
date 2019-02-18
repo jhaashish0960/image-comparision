@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
-img1 = cv2.imread("C:\\Users\\dell\\Documents\\proj\\einstein 20190210_211406.jpg", cv2.IMREAD_GRAYSCALE)
-img2 = cv2.imread("C:\\Users\\dell\\Documents\\proj\\akansha 20180731_150952.jpg" , cv2.IMREAD_GRAYSCALE)
+img1 = cv2.imread("C:\\Users\\dell\\Documents\\proj\\a.jpg", cv2.IMREAD_GRAYSCALE)
+img2 = cv2.imread("C:\\Users\\dell\\Documents\\proj\\b.jpg" , cv2.IMREAD_GRAYSCALE)
 #detector
 orb = cv2.ORB_create()
 kp1, des1 = orb.detectAndCompute( img1, None)
